@@ -13,7 +13,7 @@ public class Main {
         System.out.println(thirdHuman);
         System.out.println(fourthHuman);
         System.out.println("Задание 3");
-        Car firstCar = new Car("Lada", "Granta", 1.7, "желтый", 2015, "Россия");
+        Car firstCar = new Car("Lada", null, 1.7, "желтый", 2015, "Россия");
         Car secondCar = new Car("Audi", "50 L TDI quattro", 3.0, "черный", 2020, "Германия");
         Car thirdCar = new Car("BMW", "Z8", 3.0, "черный", 2021, "Германия");
         Car fourthCar = new Car("Kia", "Sportage 4", 2.4, "красный", 2018, "Южная Корея");
