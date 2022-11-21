@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.SortedMap;
 
 public class Main {
@@ -23,5 +24,8 @@ public class Main {
         System.out.println(thirdCar);
         System.out.println(fourthCar);
         System.out.println(fifthCar);
+        System.out.println("Encapsulation. Homework 1}");
+        Human Vladimir = new Human(LocalDate.now().getYear() - 21, "Владимир", "Казань", "");
+        System.out.println(Vladimir);
     }
 }
