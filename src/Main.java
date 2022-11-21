@@ -25,7 +25,17 @@ public class Main {
         System.out.println(fourthCar);
         System.out.println(fifthCar);
         System.out.println("Encapsulation. Homework 1}");
+        System.out.println("Task 1");
         Human Vladimir = new Human(LocalDate.now().getYear() - 21, "Владимир", "Казань", "");
         System.out.println(Vladimir);
+        System.out.println("Task 2");
+        Flower rose = new Flower("Голландия", 35.59);
+        Flower chrysanthemum = new Flower(15, 5);
+        Flower peony = new Flower("Англия", 69.9, 1);
+        Flower gypsophila = new Flower("Турция", 19.5, 10);
+        System.out.println("Роза обыкновенная: " + rose);
+        System.out.println("Хризантема: " + chrysanthemum);
+        System.out.println("Пион: " + peony);
+        System.out.println("Гипсофила: " + gypsophila);
     }
 }
